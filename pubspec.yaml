@@ -1,0 +1,29 @@
+name: productivity_timer_irfan_sabrian
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  adaptive_theme: ^3.6.0
+  cupertino_setting_control: ^1.1.0
+  flutter:
+    sdk: flutter
+  percent_indicator: ^4.2.3
+  shared_preferences: ^2.2.3
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 

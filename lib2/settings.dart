@@ -1,4 +1,4 @@
-// ignore_for_file: constant_identifier_names
+// ignore_for_file: constant_identifier_names, avoid_print
 
 import 'package:flutter/material.dart';
 import 'package:productivity_timer_irfan_sabrian/widgets.dart';
@@ -84,7 +84,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   void resetSettings() {
-    // ignore: avoid_print
     print('Reset setting called');
     prefs.setInt(WORKTIME, workTime);
     prefs.setInt(SHORTBREAK, shortBreak);
